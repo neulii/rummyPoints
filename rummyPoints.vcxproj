@@ -159,10 +159,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\MainWindow.cpp" />
     <ClCompile Include="src\rummyPoints.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\rummyPoints.h" />
+    <ClInclude Include="include\MainWindow.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

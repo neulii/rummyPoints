@@ -18,9 +18,15 @@
     <ClCompile Include="src\rummyPoints.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="src\MainWindow.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\rummyPoints.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MainWindow.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
