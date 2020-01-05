@@ -6,7 +6,7 @@ class MainWindow : public wxFrame
 private:
 
 public:
-	MainWindow(const wxString& title);
+	MainWindow();
 
 };
 

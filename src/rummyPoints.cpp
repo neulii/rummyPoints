@@ -19,7 +19,7 @@ RummyPoints::~RummyPoints()
 bool RummyPoints::OnInit()
 {
 
-	mainWindow = new MainWindow("super");
+	mainWindow = new MainWindow();
 	mainWindow->Show();
 
 

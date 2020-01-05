@@ -7,7 +7,7 @@ class RummyPoints : public wxApp
 {
 private: 
 	
-	MainWindow* mainWindow;
+	MainWindow* mainWindow = nullptr;
 
 public:
 

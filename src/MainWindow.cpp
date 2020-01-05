@@ -1,7 +1,7 @@
 #include "MainWindow.h"
 
-MainWindow::MainWindow(const wxString& title)
-	:wxFrame(NULL, wxID_ANY, title, wxDefaultPosition, wxSize(250, 150))
+MainWindow::MainWindow()
+	:wxFrame(NULL, wxID_ANY, "RummyPoints", wxDefaultPosition, wxSize(250, 150))
 {
 	Centre();
 }
