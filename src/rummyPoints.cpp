@@ -1,5 +1,9 @@
 #include "rummyPoints.h"
 
+
+wxIMPLEMENT_APP_CONSOLE(RummyPoints);
+
+
 //constructor
 RummyPoints::RummyPoints()
 {
@@ -10,4 +14,9 @@ RummyPoints::RummyPoints()
 RummyPoints::~RummyPoints()
 {
 
+}
+
+bool RummyPoints::OnInit()
+{
+	return true;
 }

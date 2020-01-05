@@ -11,4 +11,6 @@ public:
 
 	RummyPoints();
 	~RummyPoints();
+	
+	virtual bool OnInit();
 };
