@@ -21,12 +21,24 @@
     <ClCompile Include="src\MainWindow.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="src\Controller.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameModel.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\rummyPoints.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="include\MainWindow.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Controller.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameModel.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

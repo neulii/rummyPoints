@@ -73,28 +73,28 @@
     <LinkIncremental>true</LinkIncremental>
     <OutDir>.</OutDir>
     <IntDir>.\obj</IntDir>
-    <IncludePath>$(ProjectDir)\include;$(WXWIN)\include\msvc;$(WXWIN)\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\neulii\Desktop\neulib\neulib\include;$(ProjectDir)\include;$(WXWIN)\include\msvc;$(WXWIN)\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(WXWIN)\lib\vc_lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>.</OutDir>
     <IntDir>.\obj</IntDir>
-    <IncludePath>$(ProjectDir)\include;$(WXWIN)\include\msvc;$(WXWIN)\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\neulii\Desktop\neulib\neulib\include;$(ProjectDir)\include;$(WXWIN)\include\msvc;$(WXWIN)\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(WXWIN)\lib\vc_lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>.</OutDir>
     <IntDir>.\obj</IntDir>
-    <IncludePath>$(ProjectDir)\include;$(WXWIN)\include\msvc;$(WXWIN)\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\neulii\Desktop\neulib\neulib\include;$(ProjectDir)\include;$(WXWIN)\include\msvc;$(WXWIN)\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(WXWIN)\lib\vc_lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>.</OutDir>
     <IntDir>.\obj</IntDir>
-    <IncludePath>$(ProjectDir)\include;$(WXWIN)\include\msvc;$(WXWIN)\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\neulii\Desktop\neulib\neulib\include;$(ProjectDir)\include;$(WXWIN)\include\msvc;$(WXWIN)\include;$(IncludePath)</IncludePath>
     <LibraryPath>$(WXWIN)\lib\vc_lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -159,10 +159,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\GameModel.cpp" />
+    <ClCompile Include="src\Controller.cpp" />
     <ClCompile Include="src\MainWindow.cpp" />
     <ClCompile Include="src\rummyPoints.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\GameModel.h" />
+    <ClInclude Include="include\Controller.h" />
     <ClInclude Include="include\rummyPoints.h" />
     <ClInclude Include="include\MainWindow.h" />
   </ItemGroup>

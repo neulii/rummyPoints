@@ -1,4 +1,6 @@
 #include "rummyPoints.h"
+#include "main_lib.h"
+
 
 
 wxIMPLEMENT_APP_CONSOLE(RummyPoints);
@@ -7,11 +9,7 @@ wxIMPLEMENT_APP_CONSOLE(RummyPoints);
 //constructor
 RummyPoints::RummyPoints()
 {
-	mainWindow = new MainWindow();
-	game = new GameModel();
-
-	controller = new Controller(mainWindow, game);
-
+	
 }
 
 //deconstructor
@@ -22,8 +20,11 @@ RummyPoints::~RummyPoints()
 
 bool RummyPoints::OnInit()
 {
-	
-	
+
+	view = new MainWindow();
+	model = new GameModel();
+
+	controller = new Controller(*view, *model);
 
 	return true;
 }
