@@ -7,7 +7,9 @@ class RummyPoints : public wxApp
 {
 private: 
 	
-	MainWindow* mainWindow = nullptr;
+	MainWindow* mainWindow = nullptr;	//View
+	GameModel* game = nullptr;			//Model
+	Controller* controller = nullptr;	//Controller
 
 public:
 
