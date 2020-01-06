@@ -21,8 +21,8 @@ RummyPoints::~RummyPoints()
 bool RummyPoints::OnInit()
 {
 
-	view = new MainWindow();
 	model = new GameModel();
+	view = new MainWindow(*model);
 
 	controller = new Controller(*view, *model);
 
