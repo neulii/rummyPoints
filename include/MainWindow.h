@@ -1,13 +1,16 @@
 #pragma once
 
 #include "wx/wx.h"
+#include "wx/grid.h"
 #include "GameModel.h"
+
+#define ID_PLAYER_ONE 1000
+#define ID_PLAYER_TWO 1001
 
 class MainWindow : public wxFrame
 {
 private:
 	GameModel* model = nullptr;
-
 
 protected:
 	
@@ -26,9 +29,13 @@ protected:
 	wxStaticText* m_actualPointsPlayerOneLabel;
 	wxStaticText* m_actualPointsPlayerTwoLabel;
 
+	wxStaticText* m_PlayerOneNameLabel;
+	wxStaticText* m_PlayerTwoNameLabel;
 
-	
+	wxTextCtrl* m_PLayerOnePointsInput;
+	wxTextCtrl* m_PlayerTwoPointsInput;
 
+	wxGrid* m_pointTable;
 
 public:
 	MainWindow(GameModel& model);
